@@ -57,22 +57,31 @@ ___
 
 8. HTML 링크는 이렇게 걸 수 있습니다.
 ```
-Click [hear](링크 주소)
+<링크 주소>
+또는
+[링크 설명](링크 주소)
 ```
-
-9. 이미지 HTML 링크는 이렇게 걸 수 있습니다.
-```
-???
-```
-[![image](https://github.com/Soonbum/Markdown_Grammar/assets/16474083/64bd3896-959d-4a36-bc22-8fe39dbf000d)](https://regex101.com/)
 
 9. 이미지는 이렇게 걸 수 있습니다.
 ```
-![이미지 설명](링크 주소)
+![대체 텍스트](이미지 주소)
+또는
+![대체 텍스트](이미지 주소 "툴팁텍스트")
 ```
-![image](https://github.com/Soonbum/Qt_for_Python/assets/16474083/24d3c325-2737-4baa-994e-41f5ca3ec324)
+![image](https://github.com/Soonbum/Qt_for_Python/assets/16474083/24d3c325-2737-4baa-994e-41f5ca3ec324 "Qt for Python")
 
-10. 동영상은 이렇게 걸 수 있습니다. (유튜브에서 저런 형식으로 제공해 줌)
+
+???
+
+
+10. 이미지 HTML 링크는 이렇게 걸 수 있습니다.
+```
+[![대체 텍스트](이미지 주소)](링크 주소)
+```
+[![텍스트](https://github.com/Soonbum/Markdown_Grammar/assets/16474083/64bd3896-959d-4a36-bc22-8fe39dbf000d)](https://regex101.com/)
+[![텍스트](http://cfile24.uf.tistory.com/image/2444873B57E257821FA2AE)](https://unity3d.com/kr)
+
+11. 동영상은 이렇게 걸 수 있습니다. (유튜브에서 저런 형식으로 제공해 줌)
 ```
 [![동영상 설명](썸네일 이미지 주소)](동영상 주소)
 
